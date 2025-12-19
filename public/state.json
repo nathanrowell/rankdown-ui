@@ -1,4 +1,33 @@
 {
   "gameTitle": "Survivor Rankdown",
-  "round": 1
+  "players": ["Nathan", "Max", "Lauren", "David", "Bri"],
+  "updatedAt": "2025-12-19T18:30:00-05:00",
+  "currentRound": {
+    "roundNumber": 1,
+    "nominator": "Nathan",
+    "nominees": ["Parvati", "Cirie", "Tony", "Sandra", "Kim", "Rob", "Tyson", "Sarah", "Jeremy", "Wentworth", "Ozzy", "Coach"],
+    "saves": {
+      "Max": "Cirie",
+      "Lauren": "Kim",
+      "David": "Tony",
+      "Bri": "Parvati"
+    },
+    "elims": {
+      "Max": "Coach",
+      "Lauren": "Ozzy",
+      "David": "Rob",
+      "Bri": "Tyson"
+    },
+    "leftoversEliminated": ["Sandra", "Sarah", "Jeremy", "Wentworth"]
+  },
+  "eliminated": [
+    { "name": "Coach", "round": 1, "method": "elim" },
+    { "name": "Ozzy", "round": 1, "method": "elim" },
+    { "name": "Rob", "round": 1, "method": "elim" },
+    { "name": "Tyson", "round": 1, "method": "elim" },
+    { "name": "Sandra", "round": 1, "method": "leftover" },
+    { "name": "Sarah", "round": 1, "method": "leftover" },
+    { "name": "Jeremy", "round": 1, "method": "leftover" },
+    { "name": "Wentworth", "round": 1, "method": "leftover" }
+  ]
 }
